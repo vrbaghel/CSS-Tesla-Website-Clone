@@ -1,0 +1,101 @@
+.seperator {
+  border: 1rem solid white;
+  color: white;
+}
+
+.nav-container .nav-heading {
+  color: white;
+  font-weight: 600;
+}
+
+.nav-links-1 a,
+.nav-links-2 a,
+.center-content a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+.center-content .content-h {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 2.8rem;
+  font-weight: 600;
+  color: white;
+}
+
+.content-container .metrics {
+  position: absolute;
+  left: 50%;
+  bottom: -10%;
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  width: 100%;
+  height: auto;
+}
+
+.metrics div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+
+  flex: 1;
+  padding: 5px 5px;
+}
+
+.content-container .metrics .vel {
+  align-self: center;
+  flex-basis: 1px;
+  border: none;
+  width: 1px;
+  border-left: 0.1px solid white;
+  height: 4.5em;
+  color: white;
+}
+
+.metrics .metric-icon .icon {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+
+  color: white;
+  font-size: 1.8rem;
+}
+
+.metrics h3 {
+  font-size: 1.5rem;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  padding: 0 0.2em;
+  color: white;
+}
+
+.metrics p {
+  font-size: 0.9em;
+  letter-spacing: 0.05em;
+  color: white;
+}
+
+.metrics .order-button a {
+  text-decoration: none;
+  color: white;
+  font-size: 1em;
+
+  border: 0.2em solid white;
+  border-radius: 2.5em;
+
+  padding: 0.25em 0;
+  width: 60%;
+}
+
+.metrics .order-button a:hover {
+  background: white;
+  color: black;
+  font-weight: 500;
+}

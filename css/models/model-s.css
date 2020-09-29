@@ -1,0 +1,46 @@
+.model-3 {
+  background: url("../../images/model-s/model-s.2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.performance .header-short {
+  background: url("../../images/model-s/model-s.3.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.all-wheel .header-short {
+  background: url("../../images/model-s/model-s.5.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.range .header-long {
+  background: url("../../images/model-s/model-s.4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.cloud-sun {
+  height: 2rem;
+  filter: invert(100%);
+}
+
+.last-section {
+  background: white;
+}
+
+.last-section section {
+  color: black;
+}
+
+.last-section .left a {
+  /* background: black; */
+  color: black;
+  border: 0.2rem solid black;
+}

@@ -1,0 +1,162 @@
+.subpage {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.side-layout {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+}
+
+.subpage .header-short {
+  font-size: 0.9rem;
+  width: 100%;
+  flex: 1.5;
+}
+
+.subpage .header-long {
+  font-size: 0.9rem;
+  width: 100%;
+  flex: 3;
+}
+
+.subpage .metrics div {
+  padding: 0 1rem;
+  text-align: left;
+}
+
+.subpage .metrics {
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+
+  width: 80%;
+  height: auto;
+}
+
+.subpage .side-metrics {
+  position: absolute;
+  left: 36.5%;
+  top: 80%;
+  transform: translate(-50%, -50%);
+
+  display: none;
+  flex-direction: row;
+  justify-content: center;
+
+  width: 65%;
+  height: auto;
+}
+
+.subpage .metrics .vel {
+  align-self: center;
+  flex-basis: 1px;
+  border: none;
+  width: 1px;
+  border-left: 0.1px solid white;
+  height: 5.5em;
+  color: white;
+}
+
+.subpage .overview {
+  width: 75%;
+  flex: 1;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.subpage .vertical-layout {
+  flex: 1;
+  margin: 0 auto;
+  padding: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.subpage .overview > div {
+  margin-top: 4rem;
+}
+
+.subpage .overview .over-left {
+  flex: 1 0 1rem;
+
+  margin-right: 0.25rem;
+}
+
+.subpage .vertical-layout .over-left {
+  margin-top: 0;
+}
+
+.subpage .overview .over-right {
+  display: none;
+  flex: 2;
+  font-size: 1rem;
+  font-weight: 300;
+  color: rgb(82, 82, 82);
+}
+
+.subpage .vertical-layout .over-right {
+  margin-top: 1.5rem;
+  font-size: 1rem;
+  font-weight: 300;
+  color: rgb(82, 82, 82);
+}
+
+.over-left .title {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: rgb(51, 51, 51);
+}
+
+.over-left h4 {
+  font-size: 1rem;
+  letter-spacing: 0.05rem;
+  font-weight: 300;
+  color: rgb(82, 82, 82);
+}
+
+.over-left a {
+  display: inline-block;
+  width: 60%;
+  padding: 0.3em 0.55em;
+  margin: 1rem 0.5rem;
+
+  color: rgb(51, 51, 51);
+  text-align: center;
+
+  border: 0.2rem solid rgb(51, 51, 51);
+  border-radius: 3.5rem;
+}
+
+.vertical-layout .over-left a {
+  display: inline-block;
+  width: 50%;
+  padding: 0.25rem 0;
+  margin: 0.5rem 0;
+
+  color: rgb(51, 51, 51);
+  text-align: center;
+
+  border: 0.2rem solid rgb(51, 51, 51);
+  border-radius: 3.5rem;
+}
+
+.over-left a:hover {
+  background: rgb(51, 51, 51);
+  color: white;
+}

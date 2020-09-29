@@ -1,0 +1,118 @@
+.specs {
+  background: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: auto;
+}
+
+.specs .left {
+  flex: 1;
+}
+
+.specs .left img {
+  display: block;
+  width: 90%;
+
+  margin: 0 auto;
+  margin-top: 5rem;
+}
+
+.specs .right {
+  flex: 1;
+
+  padding: 4.5rem 0;
+}
+
+.specs .right .specs-wrapper {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.specs .right a,
+.specs .right p,
+.specs h2,
+.specs h3 {
+  color: white;
+}
+
+.right h2 {
+  font-size: 1.75rem;
+  font-weight: 500;
+
+  padding-bottom: 1.5rem;
+}
+
+.right .compare-links {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  margin-bottom: 2.5rem;
+}
+
+.right .compare-links a {
+  width: 100%;
+  font-size: 0.85rem;
+  color: rgb(160, 160, 160);
+
+  padding: 0.3rem;
+  margin: 0.35rem;
+  text-align: center;
+
+  border: 0.2rem solid rgb(160, 160, 160);
+  border-radius: 2.5rem;
+}
+
+.right .compare-links a:hover {
+  color: white;
+  border-color: white;
+}
+
+.right .compare-links a:first-of-type {
+  color: white;
+  border-color: white;
+}
+
+.right .compare-links a:last-of-type {
+  font-size: 0.7rem;
+  border-color: transparent;
+  background: rgb(95, 95, 95);
+  padding-top: 0.5rem;
+}
+
+.right .compare-links a:last-of-type:hover {
+  background: rgb(39, 39, 39);
+}
+
+.right .attributes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: left;
+
+  margin-bottom: 1.4rem;
+}
+
+.right .attributes hr {
+  max-width: 1.8rem;
+  margin-bottom: 0.45rem;
+
+  border: none;
+  border-bottom: 0.05rem solid rgb(95, 95, 95);
+}
+
+.right .attributes .one {
+  flex: 1;
+  max-width: 10rem;
+  margin-right: 5.5rem;
+}
+
+.right .attributes .two {
+  flex: 1;
+  max-width: 15rem;
+}
+
+.right .attributes h3 {
+  font-size: 0.9rem;
+}
