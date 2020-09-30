@@ -1,6 +1,11 @@
 li {
   list-style: none;
 }
+
+::placeholder {
+  color: #4b4f55;
+}
+
 .tesla-support .header {
   font-size: 0.9rem;
   height: 330px;
@@ -33,6 +38,31 @@ li {
 
 .tesla-support .header .sidebar-icon i {
   color: white;
+}
+
+.header .search-bar {
+  display: inline-block;
+  width: 30%;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  padding: 0.5rem 1rem;
+  background: white;
+  border: 0.1rem solid #c0c0c0;
+  border-radius: 2.5rem;
+}
+
+.header .search-bar .search-text {
+  box-shadow: none;
+  background: transparent;
+  border: none;
+  /* border-bottom: 0.1rem solid #1e1f20; */
+
+  padding: 0 0.5rem;
+  color: #1e1f20;
 }
 
 /* ************* TRENDING TOPICS ************* */
