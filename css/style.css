@@ -16,6 +16,11 @@ a {
   text-decoration: none;
 }
 
+.seperator {
+  border: 1rem solid white;
+  color: white;
+}
+
 .nav-container a,
 .center-content a {
   text-decoration: none;

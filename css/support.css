@@ -1,0 +1,137 @@
+li {
+  list-style: none;
+}
+.tesla-support .header {
+  font-size: 0.9rem;
+  height: 330px;
+  width: 100%;
+  position: relative;
+
+  background: url("../images/car-charging-2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* border: 2px solid red; */
+}
+
+.tesla-support .width-wrapper {
+  /* border: 2px solid black; */
+  width: 75%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.tesla-support .header a {
+  color: white;
+}
+
+.tesla-support .header .nav-container {
+  background: #1e1f20;
+}
+
+.tesla-support .header .sidebar-icon a {
+  color: #1e1f20;
+}
+
+.tesla-support .header .sidebar-icon i {
+  color: white;
+}
+
+.trending-topics {
+  padding: 1.5rem 0;
+}
+
+.trending-topics .tr-topics-hd {
+  color: #1e1f20;
+  font-size: 1.8rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+
+  padding: 0.6em 0;
+}
+
+.trending-topics .tr-topics-ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.trending-topics .tr-topics-li {
+  list-style: none;
+}
+
+.trending-topics .tr-topics-ul a {
+  text-decoration: none;
+  color: #1e1f20;
+
+  font-size: 0.9rem;
+}
+
+.support-category .category-hd {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  padding: 1.5rem 0;
+}
+
+.support-category .category-hd h1 {
+  flex: 1;
+  color: #1e1f20;
+  font-size: 1.3rem;
+  font-weight: 500;
+
+  padding: 0.8rem 0;
+  border-bottom: 0.25rem solid #1e1f20;
+}
+
+.support-category .category-hd h1:last-of-type {
+  color: #c0c0c0;
+  border-bottom: 0.08rem solid #c0c0c0;
+}
+
+.support-category .category-hd h1:last-of-type:hover {
+  color: #1e1f20;
+  border-bottom: 0.25rem solid #1e1f20;
+}
+
+.support-category .category-content {
+  padding: 1rem 3rem;
+  margin-bottom: 3rem;
+}
+
+.support-category .category-content h1 {
+  font-size: 1.2rem;
+  color: #1e1f20;
+  font-weight: 500;
+
+  padding: 2.5rem 0;
+}
+
+.support-category .category-content a {
+  color: #4b4f55;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.category-content .car-support li {
+  margin-bottom: 1rem;
+}
+
+.support-category .category-content .car-support {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.support-category .category-content section {
+  flex: 2;
+}
+
+/* .category-content .car-support section {
+  padding: 0 1.5rem;
+} */
+
+.support-category .category-content .tesla-acc {
+  flex: 1.2;
+}
