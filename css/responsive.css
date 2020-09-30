@@ -50,6 +50,14 @@
 }
 
 @media only screen and (min-width: 1121px) {
+  .models .nav-container {
+    position: initial;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
   .metrics h3 {
     font-size: 1.8rem;
   }
