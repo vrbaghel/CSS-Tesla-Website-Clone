@@ -25,7 +25,7 @@
 .content-container .metrics {
   position: absolute;
   left: 50%;
-  bottom: -10%;
+  bottom: -1%;
   transform: translate(-50%, -50%);
 
   display: flex;
