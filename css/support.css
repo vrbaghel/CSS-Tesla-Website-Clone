@@ -193,3 +193,82 @@ li {
 }
 
 /* *********** CONTACT ********** */
+.support-contact {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.support-contact h1 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #1e1f20;
+}
+
+.support-contact p {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #4b4f55;
+}
+
+.support-contact a {
+  display: inline-block;
+
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #1e1f20;
+
+  border: 0.15rem solid #1e1f20;
+  border-radius: 2.5em;
+
+  padding: 0.5em 3em;
+  margin: 1em;
+}
+
+/* ********** FOOTER ********** */
+.support-footer {
+  position: relative;
+  background: #1e1f20;
+  padding: 2.5rem;
+}
+
+.support-footer .list-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.support-footer .list-wrapper ul {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+}
+
+.support-footer a {
+  display: inline-block;
+
+  font-size: 0.9rem;
+  color: white;
+  padding: 1rem 0;
+}
+
+.support-footer h3 {
+  color: white;
+  font-weight: 400;
+}
+
+.support-footer h3 a {
+  padding: 1rem;
+}
+
+.support-footer .footer-icon {
+  position: absolute;
+  left: 50%;
+  bottom: 20%;
+  transform: translate(-50%, -40%);
+
+  font-size: 1.2rem;
+  color: #1e1f20;
+  background: white;
+
+  padding: 0.3rem;
+  border-radius: 50%;
+}
